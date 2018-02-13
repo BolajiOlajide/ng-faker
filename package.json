@@ -1,0 +1,20 @@
+{
+    "name": "ng-faker",
+    "version": "1.0.0",
+    "description": "generate massive amounts of fake nigerian data in Node.js",
+    "main": "index.js",
+    "repository": "git@github.com:BolajiOlajide/ng-faker.git",
+    "author": "BolajiOlajide <cooproton@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "lint": "./node_modules/.bin/eslint .",
+        "test": "./tests/test.sh"
+    },
+    "devDependencies": {
+        "eslint": "^4.17.0",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-plugin-import": "^2.8.0",
+        "jest": "22.2.2",
+        "jest-cli": "^22.2.2"
+    }
+}

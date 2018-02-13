@@ -1,0 +1,43 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "no-trailing-spaces": 2,
+    "no-param-reassign": 2,
+    "arrow-body-style": 0,
+    "no-undef": 2,
+    "class-methods-use-this": 2,
+    "no-useless-escape": 2,
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/anchor-is-valid": [
+      "warn",
+      {
+        "aspects": [
+          "invalidHref"
+        ]
+      }
+    ],
+    "indent": [
+      "error",
+      2
+    ]
+  }
+}
