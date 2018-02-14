@@ -28,7 +28,6 @@
     "no-var": 0,
     "class-methods-use-this": 2,
     "no-useless-escape": 2,
-    "jsx-a11y/href-no-hash": "off",
     "indent": [
       "error",
       4
