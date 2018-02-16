@@ -25,6 +25,7 @@
     "arrow-body-style": 0,
     "global-require": 0,
     "no-undef": 2,
+    "func-names": 0,
     "no-var": 0,
     "class-methods-use-this": 2,
     "no-useless-escape": 2,
