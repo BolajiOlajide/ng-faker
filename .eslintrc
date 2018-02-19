@@ -36,6 +36,7 @@
     "no-param-reassign": 0,
     "arrow-body-style": 0,
     "global-require": 0,
+    "object-shorthand": 0,
     "no-undef": 2,
     "func-names": 0,
     "no-underscore-dangle": 0,
