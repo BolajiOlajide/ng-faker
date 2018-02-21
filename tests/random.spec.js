@@ -99,7 +99,7 @@ describe('Random: ', function () {
       expect(typeof randomHexChar).toBe('string');
       expect(randomHexChar).toHaveLength(3);
       var randomHexChar = randomHexChar.replace('0x', '');
-      expect(hexChars.indexOf(randomHexChar)).toBeGreaterThanOrEqual(1);
+      expect(hexChars.indexOf(randomHexChar)).toBeGreaterThanOrEqual(0);
     });
 
     test('it should return a certain amount hexadecimal character', function () {
@@ -115,7 +115,7 @@ describe('Random: ', function () {
       expect(typeof randomHexChar).toBe('string');
       expect(randomHexChar).toHaveLength(3);
       var randomHexChar = randomHexChar.replace('0x', '');
-      expect(hexChars.indexOf(randomHexChar)).toBeGreaterThanOrEqual(1);
+      expect(hexChars.indexOf(randomHexChar)).toBeGreaterThanOrEqual(0);
     });
   });
 });

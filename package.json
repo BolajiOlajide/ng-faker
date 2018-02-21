@@ -4,7 +4,10 @@
     "description": "generate massive amounts of fake nigerian data in Node.js",
     "main": "index.js",
     "repository": "git@github.com:BolajiOlajide/ng-faker.git",
-    "author": "BolajiOlajide <cooproton@gmail.com>",
+    "contributors": [
+        "Bolaji Olajide",
+        "Rotimi Babalola"
+    ],
     "license": "MIT",
     "scripts": {
         "lint": "./node_modules/.bin/eslint .",
