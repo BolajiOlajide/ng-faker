@@ -4,4 +4,6 @@ var NgFaker = require('./lib');
 var ngfaker = new NgFaker({ locales: require('./lib/locales') });
 
 // export the instance of faker created
+// console.log(ngfaker.address.state(['nc', 'ne']), '------');
+
 module.exports = ngfaker;
