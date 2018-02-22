@@ -35,4 +35,13 @@ describe('Name: ', function() {
       expect(last_names.indexOf(lastName)).toBeGreaterThanOrEqual(0);
     });
   });
+
+  describe('Prefix', function() {
+    test('it should return a prefix', function() {
+      // array containing all the last names
+      var prefixes = fixtures.prefixes;
+      var prefix = ngfaker.name.prefix();
+      expect(prefixes.indexOf(prefix)).toBeGreaterThanOrEqual(0);
+    });
+  });
 });
