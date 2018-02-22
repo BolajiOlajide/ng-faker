@@ -15,7 +15,15 @@ yarn lint
 # Run unit tests
 NODE_ENV=testing ./node_modules/.bin/jest ./**/*.spec.js
 
-echo ' 💪 All tests passed! 😄 '
+echo ''
+echo ''
+echo '================================================================'
+echo ''
+echo ' 💪  All tests passed! 😄 '
+echo ''
+echo '================================================================'
+echo ''
+echo ''
 
 # if everything works fine, then ensure the scripts retutn a success code
 exit 0
