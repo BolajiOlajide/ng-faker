@@ -11,7 +11,8 @@
     "license": "MIT",
     "scripts": {
         "lint": "./node_modules/.bin/eslint .",
-        "test": "./tests/test.sh"
+        "test": "./tests/test.sh",
+        "fix-lint": "./node_modules/.bin/eslint . --fix"
     },
     "devDependencies": {
         "eslint": "4.17.0",
