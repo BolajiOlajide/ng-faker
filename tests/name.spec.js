@@ -1,6 +1,6 @@
 if (typeof module !== 'undefined') {
   var ngfaker = require('../index');
-  var fixtures = require('./fixtures/names.fixture');
+  var fixtures = require('./fixtures');
 }
 
 describe('Name: ', function() {
