@@ -3,23 +3,23 @@ if (typeof module !== 'undefined') {
   var fixtures = require('./fixtures');
 }
 
-describe('Name: ', function() {
-  describe('First Name', function() {
-    test('it should return a random firstname', function() {
+describe('Name: ', function () {
+  describe('First Name', function () {
+    test('it should return a random firstname', function () {
       // array containing all the first names both male and female
       var all_first_names = fixtures.all_first_names;
       var firstName = ngfaker.name.firstName();
       expect(all_first_names.indexOf(firstName)).toBeGreaterThanOrEqual(0);
     });
 
-    test('it should return a gender specific firstname (male)', function() {
+    test('it should return a gender specific firstname (male)', function () {
       // array containing male first names
       var male_first_names = fixtures.male_first_names;
       var firstName = ngfaker.name.firstName(0);
       expect(male_first_names.indexOf(firstName)).toBeGreaterThanOrEqual(0);
     });
 
-    test('it should return a gender specific firstname (female)', function() {
+    test('it should return a gender specific firstname (female)', function () {
       // array containing female first names
       var female_first_names = fixtures.female_first_names;
       var firstName = ngfaker.name.firstName(1);
@@ -27,8 +27,8 @@ describe('Name: ', function() {
     });
   });
 
-  describe('Last Name', function() {
-    test('it should return a lastname', function() {
+  describe('Last Name', function () {
+    test('it should return a lastname', function () {
       // array containing all the last names
       var last_names = fixtures.last_names;
       var lastName = ngfaker.name.lastName();
@@ -36,8 +36,8 @@ describe('Name: ', function() {
     });
   });
 
-  describe('Prefix', function() {
-    test('it should return a prefix', function() {
+  describe('Prefix', function () {
+    test('it should return a prefix', function () {
       // array containing all the last names
       var prefixes = fixtures.prefixes;
       var prefix = ngfaker.name.prefix();
