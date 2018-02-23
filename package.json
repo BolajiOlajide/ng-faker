@@ -12,9 +12,19 @@
     "scripts": {
         "lint": "./node_modules/.bin/eslint .",
         "test": "./tests/test.sh",
-        "fix-lint": "./node_modules/.bin/eslint . --fix"
+        "fix-lint": "./node_modules/.bin/eslint . --fix",
+        "report": "./node_modules/.bin/codecov"
+    },
+    "jest": {
+        "collectCoverage": true,
+        "collectCoverageFrom": [
+            "**/lib/**/*.{js}"
+        ],
+        "verbose": true,
+        "notify": true
     },
     "devDependencies": {
+        "codecov": "^3.0.0",
         "eslint": "4.17.0",
         "eslint-config-airbnb-base": "12.1.0",
         "eslint-plugin-import": "2.8.0",

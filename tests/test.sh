@@ -25,5 +25,11 @@ echo '======================================================================='
 echo ''
 echo ''
 
+# send coverage if environment is circleCI
+if [ $1 == 'CI' ]; then
+  echo 'Sending coverage to codecov'
+  yarn report
+fi
+
 # if everything works fine, then ensure the scripts return a success code
 exit 0
