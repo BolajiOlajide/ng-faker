@@ -17,13 +17,13 @@ NODE_ENV=testing ./node_modules/.bin/jest ./**/*.spec.js
 
 echo ''
 echo ''
-echo '================================================================'
+echo '======================================================================='
 echo ''
-echo ' 💪  All tests passed! 😄 '
+echo ' 💪  As a correct guy all your tests passed!!!! 😎 😄 #SmartGuy #DopeGuy'
 echo ''
-echo '================================================================'
+echo '======================================================================='
 echo ''
 echo ''
 
-# if everything works fine, then ensure the scripts retutn a success code
+# if everything works fine, then ensure the scripts return a success code
 exit 0
