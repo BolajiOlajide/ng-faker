@@ -26,7 +26,7 @@ echo ''
 echo ''
 
 # send coverage if environment is circleCI
-if [ $1 == 'CI' ]; then
+if [ "$1" == 'CI' ]; then
   echo 'Sending coverage to codecov'
   yarn report
 fi
