@@ -5,5 +5,3 @@ var ngfaker = new NgFaker({ locales: require('./lib/locales') });
 
 // export the instance of faker created
 module.exports = ngfaker;
-
-console.log(ngfaker.phone.phoneNumber(), '+++++');
