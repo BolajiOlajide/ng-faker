@@ -14,7 +14,7 @@ describe('Phone:', function () {
         });
 
         test('it returns a phone number with international prefix', function () {
-            var phoneNumber = ngfaker.phone.phoneNumber({ addInternationalPrefix: true });
+            var phoneNumber = ngfaker.phone.phoneNumber({ intl: true });
             expect(phoneNumber.length).toEqual(14);
             expect(phoneNumber.includes('+234')).toBe(true);
             expect(typeof phoneNumber).toBe('string');
