@@ -85,7 +85,6 @@ describe('Address:', function () {
 
         test('it should return all states in a region if passed as a parameter', function () {
             var states = ngfaker.address.states('nw');
-            console.log('nw ======>', states);
             expect(states.indexOf('Kaduna')).toBeGreaterThanOrEqual(0);
             expect(states.indexOf('Zamfara')).toBeGreaterThanOrEqual(0);
             expect(typeof states).toEqual('object');

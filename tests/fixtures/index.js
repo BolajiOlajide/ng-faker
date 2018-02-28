@@ -10,6 +10,8 @@ var address = require('../../lib/locales/common/address');
 
 var account = require('../../lib/locales/common/account');
 
+var phone = require('../../lib/locales/common/phone');
+
 module.exports = {
   male_first_names,
   female_first_names,
@@ -18,5 +20,6 @@ module.exports = {
   prefixes,
   lorem,
   address,
-  account
+  account,
+  phone
 };
