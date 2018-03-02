@@ -44,4 +44,12 @@ describe('Name: ', function () {
       expect(prefixes.indexOf(prefix)).toBeGreaterThanOrEqual(0);
     });
   });
+
+  describe('Full name', function () {
+    test('it should return a random full name', function () {
+      var fullName = ngfaker.name.fullName();
+      var nameParts = fullName.split(' ');
+      expect(nameParts.length).toEqual(3);
+    });
+  });
 });
