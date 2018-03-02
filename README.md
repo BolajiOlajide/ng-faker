@@ -21,12 +21,12 @@ For now, we don't have support for the browser directly. We're working on that a
 ## API
 
 ### ngfaker.fake()
-ngfaker contains a super useful generator method ngfaker.fake for combining faker API methods using a mustache string format.
+ngfaker contains a super useful generator method ngfaker.fake for combining ngfaker API methods using a mustache string format.
 
 ### Example:
 
 ```js
-console.log(faker.fake("{{name.prefix}}, {{name.firstName}} {{name.lastName}}"));
+console.log(ngfaker.fake("{{name.prefix}}, {{name.firstName}} {{name.lastName}}"));
 // outputs: "Dr. Annabelle Smith"
 ```
 
