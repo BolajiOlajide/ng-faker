@@ -85,3 +85,19 @@ ngfaker.locale = "yo";
 ```sh
     npm run test
 ```
+
+## Version Release Schedule
+
+If you require the absolute latest version of `ng-faker` the `master` branch @ http://github.com/BolajiOlajide/ng-faker/ should always be up to date and working.
+
+## Maintainer
+
+#### Bolaji BolajiOlajide
+#### Rotimi Babalola
+#### Oyindamola Subair
+
+ng-faker was inspired by and has used data definitions and logic from:
+
+ * https://github.com/Marak/faker.js - Marak Squires
+ * https://github.com/stympy/faker/ - Copyright (c) 2007-2010 Benjamin Curtis
+ * http://search.cpan.org/~jasonk/Data-Faker-0.07/ - Copyright 2004-2005 by Jason Kohles

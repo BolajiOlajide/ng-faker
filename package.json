@@ -30,5 +30,14 @@
         "eslint-plugin-import": "2.8.0",
         "jest": "22.2.2",
         "jest-cli": "22.2.2"
-    }
+    },
+    "keywords": [
+      "faker",
+      "nigeria",
+      "fake",
+      "naija",
+      "ng",
+      "data",
+      "fakerjs"
+    ]
 }

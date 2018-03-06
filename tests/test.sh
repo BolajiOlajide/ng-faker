@@ -6,11 +6,11 @@ set -eo pipefail
 
 if ! [ -d "node_modules" ]; then
     # run npm install to install dependencies
-    yarn install
+    npm install
 fi
 
 # Run a lint check
-yarn lint
+npm lint
 
 # Run unit tests
 NODE_ENV=testing ./node_modules/.bin/jest ./**/*.spec.js
@@ -28,7 +28,7 @@ echo ''
 # send coverage if environment is circleCI
 if [ "$1" == 'CI' ]; then
   echo 'Sending coverage to codecov'
-  yarn report
+  npm report
 fi
 
 # if everything works fine, then ensure the scripts return a success code
