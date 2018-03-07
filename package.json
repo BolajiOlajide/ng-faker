@@ -32,12 +32,12 @@
         "jest-cli": "22.2.2"
     },
     "keywords": [
-      "faker",
-      "nigeria",
-      "fake",
-      "naija",
-      "ng",
-      "data",
-      "fakerjs"
+        "faker",
+        "nigeria",
+        "fake",
+        "naija",
+        "ng",
+        "data",
+        "fakerjs"
     ]
 }
