@@ -90,9 +90,9 @@ ngfaker.locale = "yo";
 
 If you require the absolute latest version of `ng-faker` the `master` branch @ http://github.com/BolajiOlajide/ng-faker/ should always be up to date and working.
 
-## Maintainer
+## Maintainers
 
-#### Bolaji BolajiOlajide
+#### Bolaji Olajide
 #### Rotimi Babalola
 #### Oyindamola Subair
 
