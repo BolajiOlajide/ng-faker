@@ -31,7 +31,7 @@ To setup for making changes you will need to take a few steps, we've outlined th
 
 ### Making a Change
 
-Once you have python3, the repository, and have installed dependencies are you almost ready to make your change. The only other thing before you start is to checkout the correct branch. Which branch you should make your change to (and send a PR to) depends on the type of change you are making.
+Once you have the repository on your machine and have installed dependencies you are almost ready to make your change(s). The only other thing to do before you start is to checkout to the correct branch. Which branch you should make your change to (and send a PR to) depends on the type of change you are making.
 
 Always make your change to `develop` as it is the branch for QA testing and feature compilation before pushing to master.
 
