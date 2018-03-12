@@ -40,6 +40,8 @@ This will interpolate the format string with the value of methods name.prefix(),
 * address
   * state
   * states
+  * localGovernment
+  * localGovernments
 * lorem
   * word
   * phrase
@@ -78,6 +80,8 @@ ngfaker.locale = "yo";
  * en - English
  * ha - hausa
  * ig - igbo
+
+ Other locales will be added soon...
 
 
 ## Tests
