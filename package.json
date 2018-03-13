@@ -6,7 +6,8 @@
     "repository": "git@github.com:BolajiOlajide/ng-faker.git",
     "contributors": [
         "Bolaji Olajide",
-        "Rotimi Babalola"
+        "Rotimi Babalola",
+        "Oyindamola Subair"
     ],
     "license": "MIT",
     "scripts": {
