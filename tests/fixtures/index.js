@@ -23,3 +23,5 @@ module.exports = {
   account,
   phone
 };
+
+console.log('hello');
