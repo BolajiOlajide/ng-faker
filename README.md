@@ -21,9 +21,10 @@ For now, we don't have support for the browser directly. We're working on that a
 ## API
 
 ### ngfaker.fake()
+
 ngfaker contains a super useful generator method ngfaker.fake for combining ngfaker API methods using a mustache string format.
 
-### Example:
+### Example
 
 ```js
 console.log(ngfaker.fake("{{name.prefix}}, {{name.firstName}} {{name.lastName}}"));
@@ -76,13 +77,25 @@ ngfaker.setLocale("yo");
 ngfaker.locale = "yo";
 ```
 
- * yo - Yoruba
- * en - English
- * ha - hausa
- * ig - igbo
+* yo - Yoruba
+* en - English
+* ha - hausa
+* ig - igbo
 
  Other locales will be added soon...
 
+Adding a new locale is equally easy:
+
+```js
+ngFaker.addLocale('ef', {
+  title: 'Efik',
+  name: [
+    "Efik1", "Efik2"
+  ],
+  lorem: [],
+  address: []
+})
+```
 
 ## Tests
 
@@ -92,16 +105,16 @@ ngfaker.locale = "yo";
 
 ## Version Release Schedule
 
-If you require the absolute latest version of `ng-faker` the `master` branch @ http://github.com/BolajiOlajide/ng-faker/ should always be up to date and working.
+If you require the absolute latest version of `ng-faker` the `master` branch on the [official repo](http://github.com/BolajiOlajide/ng-faker/) should always be up to date and working.
 
 ## Maintainers
 
-#### Bolaji Olajide
-#### Rotimi Babalola
-#### Oyindamola Subair
+* Bolaji Olajide
+* Rotimi Babalola
+* Oyindamola Subair
 
 ng-faker was inspired by and has used data definitions and logic from:
 
- * https://github.com/Marak/faker.js - Marak Squires
- * https://github.com/stympy/faker/ - Copyright (c) 2007-2010 Benjamin Curtis
- * http://search.cpan.org/~jasonk/Data-Faker-0.07/ - Copyright 2004-2005 by Jason Kohles
+* [Marak Squires](https://github.com/Marak/faker.js)
+* [Copyright (c) 2007-2010 Benjamin Curtis](https://github.com/stympy/faker/)
+* [Copyright 2004-2005 by Jason Kohles](http://search.cpan.org/~jasonk/Data-Faker-0.07/)
