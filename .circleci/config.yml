@@ -34,4 +34,11 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: ./tests/test.sh CI
+      - run:
+          name: Rnu tests
+          command: |
+            ./tests/test.sh
+
+      - store_artifacts:
+          path: test-reports/
+          destination: tr1
