@@ -1,0 +1,20 @@
+module.exports = [
+  'Asari',
+  'Eme',
+  'Minika',
+  'Atai',
+  'Ema',
+  'Efioanwan',
+  '	
+  Ekpoanwan',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+];
