@@ -4,6 +4,20 @@
 
 ## Usage
 
+### Installation
+
+Install with npm:
+
+```sh
+npm install ng-faker --save-dev
+```
+
+Install with yarn:
+
+```sh
+yarn add ng-faker --dev
+```
+
 ### Browser
 
 For now, we don't have support for the browser directly. We're working on that and should have that up really soon.
