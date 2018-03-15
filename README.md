@@ -1,6 +1,6 @@
 # NG-Faker
 
-[![CircleCI](https://circleci.com/gh/BolajiOlajide/ng-faker.svg?style=svg&circle-token=750ef852d599f02e01a6efb4e0efe349dacb2156)](https://circleci.com/gh/BolajiOlajide/ng-faker)
+[![Build Status](https://travis-ci.org/BolajiOlajide/ng-faker.svg?branch=master)](https://travis-ci.org/BolajiOlajide/ng-faker)
 
 ## Usage
 
@@ -93,6 +93,7 @@ ngfaker.locale = "yo";
  * en - English
  * ha - hausa
  * ig - igbo
+ * ek - Efik
 
  Other locales will be added soon...
 
