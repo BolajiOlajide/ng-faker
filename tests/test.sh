@@ -13,7 +13,7 @@ fi
 npm run lint
 
 # Run unit tests
-NODE_ENV=testing ./node_modules/.bin/jest ./**/*.spec.js
+NODE_ENV=testing ./node_modules/.bin/jest ./**/*.spec.js && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
 
 echo ''
 echo ''
