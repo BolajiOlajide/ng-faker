@@ -54,7 +54,9 @@ describe('Random: ', function () {
       var randomObjectVal = ngfaker.random.objectElement();
       var sampleObject = fixtures.sampleObject;
       expect(typeof randomObjectVal).toBe('string');
-      var objectVals = Object.values(sampleObject);
+      var objectVals = Object.keys(sampleObject).map(function(key) {
+        return sampleObject[key];
+      });
       expect(objectVals.indexOf(randomObjectVal)).toBeGreaterThanOrEqual(0);
     });
 
@@ -62,7 +64,9 @@ describe('Random: ', function () {
       var sampleObject2 = fixtures.sampleObject2;
       var randomObjectVal = ngfaker.random.objectElement(sampleObject2);
       expect(typeof randomObjectVal).toBe('string');
-      var objectVals = Object.values(sampleObject2);
+      var objectVals = Object.keys(sampleObject2).map(function(key) {
+        return sampleObject2[key];
+      });
       expect(objectVals.indexOf(randomObjectVal)).toBeGreaterThanOrEqual(0);
     });
   });
