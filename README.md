@@ -1,6 +1,7 @@
 # NG-Faker
-
 [![Build Status](https://travis-ci.org/BolajiOlajide/ng-faker.svg?branch=master)](https://travis-ci.org/BolajiOlajide/ng-faker)
+[![Coverage Status](https://coveralls.io/repos/github/BolajiOlajide/ng-faker/badge.svg?branch=master)](https://coveralls.io/github/BolajiOlajide/ng-faker?branch=master)
+
 
 ## Usage
 
