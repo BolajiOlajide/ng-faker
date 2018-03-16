@@ -1,0 +1,10 @@
+language: javascript
+sudo: required
+language: node_js
+node_js: stable
+install: "npm install"
+# command to run tests
+script:
+  - npm test
+
+after_success: "cat ./coverage/**/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
