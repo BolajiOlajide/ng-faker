@@ -6,3 +6,4 @@ install: "npm install"
 # command to run tests
 script:
   - npm test
+after_success: "cat ./coverage/**/lcov.info | ./node_modules/coveralls/bin/coveralls.js"

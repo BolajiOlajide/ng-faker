@@ -1,6 +1,7 @@
 # NG-Faker
 
-[![CircleCI](https://circleci.com/gh/BolajiOlajide/ng-faker.svg?style=svg&circle-token=750ef852d599f02e01a6efb4e0efe349dacb2156)](https://circleci.com/gh/BolajiOlajide/ng-faker)
+[![Build Status](https://travis-ci.org/BolajiOlajide/ng-faker.svg?branch=master)](https://travis-ci.org/BolajiOlajide/ng-faker)
+[![Coverage Status](https://coveralls.io/repos/github/BolajiOlajide/ng-faker/badge.svg?branch=master)](https://coveralls.io/github/BolajiOlajide/ng-faker?branch=master)
 
 ## Usage
 
@@ -90,10 +91,11 @@ ngfaker.setLocale("yo");
 ngfaker.locale = "yo";
 ```
 
-* yo - Yoruba
-* en - English
-* ha - hausa
-* ig - igbo
+ * yo - Yoruba
+ * en - English
+ * ha - hausa
+ * ig - igbo
+ * ek - Efik
 
  Other locales will be added soon...
 
