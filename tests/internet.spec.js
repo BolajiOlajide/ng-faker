@@ -15,9 +15,9 @@ describe('Internet: ', function () {
     test('it should generate a valid email if parameters are passed in', function () {
       var email = ngfaker.internet.email('john', 'doe', 'aol.com');
       expect(EMAIL_REGEX.test(email)).toBeTruthy();
-      expect(email.includes('john')).toBeTruthy();
-      expect(email.includes('doe')).toBeTruthy();
-      expect(email.includes('aol.com')).toBeTruthy();
+      expect(email.indexOf('john')).toBeGreaterThanOrEqual(0);
+      expect(email.indexOf('doe')).toBeGreaterThanOrEqual(0);
+      expect(email.indexOf('aol.com')).toBeGreaterThanOrEqual(0);
     });
   });
 });
