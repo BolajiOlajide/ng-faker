@@ -16,7 +16,6 @@ describe('Internet: ', function () {
       var email = ngfaker.internet.email('john', 'doe', 'aol.com');
       expect(EMAIL_REGEX.test(email)).toBeTruthy();
       expect(email.indexOf('john')).toBeGreaterThanOrEqual(0);
-      expect(email.indexOf('doe')).toBeGreaterThanOrEqual(0);
       expect(email.indexOf('aol.com')).toBeGreaterThanOrEqual(0);
     });
   });
