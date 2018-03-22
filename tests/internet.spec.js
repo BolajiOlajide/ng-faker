@@ -19,4 +19,12 @@ describe('Internet: ', function () {
       expect(email.indexOf('aol.com')).toBeGreaterThanOrEqual(0);
     });
   });
+
+  describe('Username', function () {
+    test('it should generate a username', function () {
+      var username = ngfaker.internet.userName();
+      expect(typeof username).toEqual('string');
+      expect(username.length).toBeGreaterThan(0);
+    });
+  });
 });
