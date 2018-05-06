@@ -6,3 +6,5 @@ coverage/
 .nyc_output/
 .history/
 .coveralls.yml
+yarn.lock
+package-lock.json
