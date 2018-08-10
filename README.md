@@ -128,6 +128,10 @@ If you require the absolute latest version of `ng-faker` the `master` branch on 
 * Rotimi Babalola
 * Oyindamola Subair
 
+## Contributors
+
+See also the list of [contributors](https://github.com/BolajiOlajide/ng-faker/contributors) who participate in this project.
+
 ng-faker was inspired by and has used data definitions and logic from:
 
 * [Marak Squires](https://github.com/Marak/faker.js)
