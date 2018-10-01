@@ -117,6 +117,9 @@ If you require the absolute latest version of `ng-faker` the `master` branch @ h
 
 ## Contributors
 
+| [<img src="https://github.com/rotimi-babalola.png" width="100px;"><br><sub><b>Rotimi Babalola</b></sub>](https://github.com/rotimi-babalola)| [<img src="https://github.com/BolajiOlajide" width="100px;"><br><sub><b>Bolaji Olajide</b></sub>](https://github.com/BolajiOlajide) | [<img src="https://github.com/oyinda-subair.png" width="100px;"><br><sub><b>Bolaji Olajide</b></sub>](https://github.com/oyinda-subair)
+| :---: | :---: | :---: | 
+
 See also the list of [contributors](https://github.com/BolajiOlajide/ng-faker/contributors) who participate in this project.
 
 ng-faker was inspired by and has used data definitions and logic from:
