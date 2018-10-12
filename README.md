@@ -95,6 +95,8 @@ ngfaker.locale = "yo";
  * ha - hausa
  * ig - igbo
  * ek - Efik
+ * bn - Benin
+
 
  Other locales will be added soon...
 
