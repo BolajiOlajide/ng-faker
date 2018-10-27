@@ -1,7 +1,7 @@
 # NG-Faker
 
-[![Build Status](https://travis-ci.org/BolajiOlajide/ng-faker.svg?branch=master)](https://travis-ci.org/BolajiOlajide/ng-faker)
-[![Coverage Status](https://coveralls.io/repos/github/BolajiOlajide/ng-faker/badge.svg?branch=master)](https://coveralls.io/github/BolajiOlajide/ng-faker?branch=master)
+[![Build Status](https://travis-ci.org/BolajiOlajide/ng-faker.svg?branch=develop)](https://travis-ci.org/BolajiOlajide/ng-faker)
+[![Coverage Status](https://coveralls.io/repos/github/BolajiOlajide/ng-faker/badge.svg?branch=develop)](https://coveralls.io/github/BolajiOlajide/ng-faker?branch=master)
 
 ## Usage
 
@@ -35,6 +35,7 @@ For now, we don't have support for the browser directly. We're working on that a
 ## API
 
 ### ngfaker.fake()
+
 ngfaker contains a super useful generator method ngfaker.fake for combining ngfaker API methods using a mustache string format.
 
 ### Example:
@@ -90,16 +91,15 @@ ngfaker.setLocale("yo");
 ngfaker.locale = "yo";
 ```
 
- * yo - Yoruba
- * en - English
- * ha - hausa
- * ig - igbo
- * ek - Efik
- * bn - Benin
-
+* yo - Yoruba
+* en - English
+* ha - hausa
+* ig - igbo
+* ek - Efik
+* bn - Benin
+* ur - urhobo
 
  Other locales will be added soon...
-
 
 ## Tests
 
