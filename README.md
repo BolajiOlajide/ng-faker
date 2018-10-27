@@ -113,21 +113,20 @@ If you require the absolute latest version of `ng-faker` the `master` branch @ h
 
 ## Maintainers
 
-#### Bolaji Olajide
-#### Rotimi Babalola
-#### Oyindamola Subair
+* Bolaji Olajide
+* Rotimi Babalola
+* Oyindamola Subair
 
 ## Contributors
 
-| [<img src="https://github.com/rotimi-babalola.png" width="100px;"><br><sub><b>Rotimi Babalola</b></sub>](https://github.com/rotimi-babalola)| [<img src="https://github.com/BolajiOlajide.png" width="100px;"><br><sub><b>Bolaji Olajide</b></sub>](https://github.com/BolajiOlajide) | [<img src="https://github.com/oyinda-subair.png" width="100px;"><br><sub><b>Subair Oyindamola</b></sub>](https://github.com/oyinda-subair)
-| :---: | :---: | :---: | 
-| [<img src="https://github.com/olamilekan000.png" width="100px;"><br><sub><b>Olamilekan Odukoya</b></sub>](https://github.com/olamilekan000) | [<img src="https://github.com/Ayomiga.png" width="100px;"><br><sub><b>Ayomiga</b></sub>](https://github.com/Ayomiga) |
-
-
-See also the list of [contributors](https://github.com/BolajiOlajide/ng-faker/contributors) who participate in this project.
+| [<img src="https://github.com/rotimi-babalola.png" width="100px;"><br><sub><b>Rotimi Babalola</b></sub>](https://github.com/rotimi-babalola)| [<img src="https://github.com/BolajiOlajide.png" width="100px;"><br><sub><b>Bolaji Olajide</b></sub>](https://github.com/BolajiOlajide) | [<img src="https://github.com/oyinda-subair.png" width="100px;"><br><sub><b>Subair Oyindamola</b></sub>](https://github.com/oyinda-subair) | [<img src="https://github.com/sudo-kaizen.png" width="100px;"><br><sub><b>sudo-kaizen</b></sub>](https://github.com/sudo-kaizen)
+| :---: | :---: | :---: |
+| [<img src="https://github.com/olamilekan000.png" width="100px;"><br><sub><b>Olamilekan Odukoya</b></sub>](https://github.com/olamilekan000) | [<img src="https://github.com/Ayomiga.png" width="100px;"><br><sub><b>Ayomiga</b></sub>](https://github.com/Ayomiga) | [<img src="https://github.com/jcobhams.png" width="100px;"><br><sub><b>JCobhams</b></sub>](https://github.com/jcobhams)
+| :---: | :---: | :---: |
+| [<img src="https://github.com/seunzone.png" width="100px;"><br><sub><b>Seun Faluyi</b></sub>](https://github.com/seunzone) | [<img src="https://github.com/Neiva07.png" width="100px;"><br><sub><b>Neiva07</b></sub>](https://github.com/Neiva07) | [<img src="https://github.com/nero-adaware.png" width="100px;"><br><sub><b>nero-adaware</b></sub>](https://github.com/nero-adaware)
 
 ng-faker was inspired by and has used data definitions and logic from:
 
- * https://github.com/Marak/faker.js - Marak Squires
- * https://github.com/stympy/faker/ - Copyright (c) 2007-2010 Benjamin Curtis
- * http://search.cpan.org/~jasonk/Data-Faker-0.07/ - Copyright 2004-2005 by Jason Kohles
+* [Marak Squires -Faker.js](https://github.com/Marak/faker.js)
+* [Copyright (c) 2007-2010 Benjamin Curtis](https://github.com/stympy/faker/)
+* [Copyright 2004-2005 by Jason Kohles](http://search.cpan.org/~jasonk/Data-Faker-0.07/)
