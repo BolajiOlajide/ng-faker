@@ -1,7 +1,12 @@
 # NG-Faker
 
-[![Build Status](https://travis-ci.org/BolajiOlajide/ng-faker.svg?branch=master)](https://travis-ci.org/BolajiOlajide/ng-faker)
-[![Coverage Status](https://coveralls.io/repos/github/BolajiOlajide/ng-faker/badge.svg?branch=master)](https://coveralls.io/github/BolajiOlajide/ng-faker?branch=master)
+[![Build Status](https://travis-ci.org/BolajiOlajide/ng-faker.svg?branch=develop)](https://travis-ci.org/BolajiOlajide/ng-faker)
+[![Coverage Status](https://coveralls.io/repos/github/BolajiOlajide/ng-faker/badge.svg?branch=develop)](https://coveralls.io/github/BolajiOlajide/ng-faker?branch=master)
+[![star this repo](http://githubbadges.com/star.svg?user=BolajiOlajide&repo=ng-faker&style=flat)](https://github.com/BolajiOlajide/ng-faker)
+[![fork this repo](http://githubbadges.com/fork.svg?user=BolajiOlajide&repo=ng-faker&style=flat)](https://github.com/BolajiOlajide/ng-faker/fork)
+[![npm](https://img.shields.io/npm/v/ng-faker.svg)](https://www.npmjs.com/package/ng-faker)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
 ## Usage
 
@@ -35,6 +40,7 @@ For now, we don't have support for the browser directly. We're working on that a
 ## API
 
 ### ngfaker.fake()
+
 ngfaker contains a super useful generator method ngfaker.fake for combining ngfaker API methods using a mustache string format.
 
 ### Example:
@@ -90,14 +96,15 @@ ngfaker.setLocale("yo");
 ngfaker.locale = "yo";
 ```
 
- * yo - Yoruba
- * en - English
- * ha - hausa
- * ig - igbo
- * ek - Efik
+* yo - Yoruba
+* en - English
+* ha - hausa
+* ig - igbo
+* ek - Efik
+* bn - Benin
+* ur - urhobo
 
  Other locales will be added soon...
-
 
 ## Tests
 
@@ -111,16 +118,22 @@ If you require the absolute latest version of `ng-faker` the `master` branch @ h
 
 ## Maintainers
 
-#### Bolaji Olajide
-#### Rotimi Babalola
-#### Oyindamola Subair
+* Bolaji Olajide
+* Rotimi Babalola
+* Oyindamola Subair
 
 ## Contributors
 
-See also the list of [contributors](https://github.com/BolajiOlajide/ng-faker/contributors) who participate in this project.
+| [<img src="https://github.com/rotimi-babalola.png" width="100px;"><br><sub><b>Rotimi Babalola</b></sub>](https://github.com/rotimi-babalola)| [<img src="https://github.com/BolajiOlajide.png" width="100px;"><br><sub><b>Bolaji Olajide</b></sub>](https://github.com/BolajiOlajide) | [<img src="https://github.com/oyinda-subair.png" width="100px;"><br><sub><b>Subair Oyindamola</b></sub>](https://github.com/oyinda-subair)
+| :---: | :---: | :---: |
+| [<img src="https://github.com/olamilekan000.png" width="100px;"><br><sub><b>Olamilekan Odukoya</b></sub>](https://github.com/olamilekan000) | [<img src="https://github.com/Ayomiga.png" width="100px;"><br><sub><b>Ayomiga</b></sub>](https://github.com/Ayomiga) | [<img src="https://github.com/jcobhams.png" width="100px;"><br><sub><b>JCobhams</b></sub>](https://github.com/jcobhams)
+| :---: | :---: | :---: |
+| [<img src="https://github.com/seunzone.png" width="100px;"><br><sub><b>Seun Faluyi</b></sub>](https://github.com/seunzone) | [<img src="https://github.com/Neiva07.png" width="100px;"><br><sub><b>Neiva07</b></sub>](https://github.com/Neiva07) | [<img src="https://github.com/nero-adaware.png" width="100px;"><br><sub><b>nero-adaware</b></sub>](https://github.com/nero-adaware)
+| :---: | :---: | :---: |
+| [<img src="https://github.com/sudo-kaizen.png" width="100px;"><br><sub><b>sudo-kaizen</b></sub>](https://github.com/sudo-kaizen)
 
 ng-faker was inspired by and has used data definitions and logic from:
 
- * https://github.com/Marak/faker.js - Marak Squires
- * https://github.com/stympy/faker/ - Copyright (c) 2007-2010 Benjamin Curtis
- * http://search.cpan.org/~jasonk/Data-Faker-0.07/ - Copyright 2004-2005 by Jason Kohles
+* [Marak Squires -Faker.js](https://github.com/Marak/faker.js)
+* [Copyright (c) 2007-2010 Benjamin Curtis](https://github.com/stympy/faker/)
+* [Copyright 2004-2005 by Jason Kohles](http://search.cpan.org/~jasonk/Data-Faker-0.07/)
