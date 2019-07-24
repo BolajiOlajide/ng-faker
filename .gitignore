@@ -7,3 +7,4 @@ coverage/
 .history/
 .coveralls.yml
 package-lock.json
+yarn.lock

@@ -13,7 +13,8 @@
     "scripts": {
         "lint": "eslint .",
         "test": "./tests/test.sh",
-        "fix-lint": "eslint . --fix"
+        "fix-lint": "eslint . --fix",
+        "publish": "np"
     },
     "jest": {
         "collectCoverage": true,
@@ -29,7 +30,8 @@
         "eslint-config-airbnb-base": "12.1.0",
         "eslint-plugin-import": "2.8.0",
         "jest": "20.0.3",
-        "jest-cli": "20.0.3"
+        "jest-cli": "20.0.3",
+        "np": "^5.0.3"
     },
     "keywords": [
         "faker",
