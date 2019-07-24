@@ -43,7 +43,7 @@ For now, we don't have support for the browser directly. We're working on that a
 
 ngfaker contains a super useful generator method ngfaker.fake for combining ngfaker API methods using a mustache string format.
 
-### Example:
+### Example
 
 ```js
 console.log(ngfaker.fake("{{name.prefix}}, {{name.firstName}} {{name.lastName}}"));
@@ -106,6 +106,21 @@ ngfaker.locale = "yo";
 
  Other locales will be added soon...
 
+## Custom Locale
+
+Adding a new locale is equally easy:
+
+```js
+ngFaker.addLocale('ef', {
+  title: 'Efik',
+  name: [
+    "Efik1", "Efik2"
+  ],
+  lorem: [],
+  address: []
+})
+```
+
 ## Tests
 
 ```sh
@@ -114,7 +129,7 @@ ngfaker.locale = "yo";
 
 ## Version Release Schedule
 
-If you require the absolute latest version of `ng-faker` the `master` branch @ http://github.com/BolajiOlajide/ng-faker/ should always be up to date and working.
+If you require the absolute latest version of `ng-faker` the `master` branch on the [official repo](http://github.com/BolajiOlajide/ng-faker/) should always be up to date and working.
 
 ## Maintainers
 
