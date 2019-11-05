@@ -3,7 +3,7 @@
 See commit history on Github for change history
 https://github.com/BolajiOlajide/ng-faker
 
-## v1.0.0 - 2017-03-10
+## v1.x.x - 2017-03-10
 
 ### API
 
