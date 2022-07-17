@@ -150,5 +150,5 @@ If you require the absolute latest version of `ng-faker` the `master` branch on 
 ng-faker was inspired by and has used data definitions and logic from:
 
 * [Marak Squires -Faker.js](https://github.com/Marak/faker.js)
-* [Copyright (c) 2007-2010 Benjamin Curtis](https://github.com/stympy/faker/)
-* [Copyright 2004-2005 by Jason Kohles](http://search.cpan.org/~jasonk/Data-Faker-0.07/)
+* [Copyright (c) 2007-2010 Benjamin Curtis](https://github.com/stympy/faker)
+* [Copyright 2004-2005 by Jason Kohles](http://search.cpan.org/~jasonk/Data-Faker-0.07)
