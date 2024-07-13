@@ -1,9 +1,5 @@
 # NG-Faker
 
-[![Build Status](https://travis-ci.org/BolajiOlajide/ng-faker.svg?branch=develop)](https://travis-ci.org/BolajiOlajide/ng-faker)
-[![Coverage Status](https://coveralls.io/repos/github/BolajiOlajide/ng-faker/badge.svg?branch=develop)](https://coveralls.io/github/BolajiOlajide/ng-faker?branch=master)
-[![star this repo](http://githubbadges.com/star.svg?user=BolajiOlajide&repo=ng-faker&style=flat)](https://github.com/BolajiOlajide/ng-faker)
-[![fork this repo](http://githubbadges.com/fork.svg?user=BolajiOlajide&repo=ng-faker&style=flat)](https://github.com/BolajiOlajide/ng-faker/fork)
 [![npm](https://img.shields.io/npm/v/ng-faker.svg)](https://www.npmjs.com/package/ng-faker)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
