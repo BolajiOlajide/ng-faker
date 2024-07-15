@@ -1,4 +1,4 @@
-var internet = require('../lib/locales/common/internet');
+var internet = require('./locales/common/internet');
 
 /**
  * namespace ngFaker.internet

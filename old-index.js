@@ -1,11 +1,11 @@
-var NgFaker = require('./lib');
+var NgFaker = require('./lib-js');
 
 const {
   en,
   yo,
   ig,
   ha
-} = require('./lib/locales');
+} = require('./lib-js/locales');
 
 // create new instance of faker class
 var ngfaker = new NgFaker({
