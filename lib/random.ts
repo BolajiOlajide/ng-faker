@@ -1,3 +1,5 @@
+import { alphaNumericChars, hexaDecimalChars } from './common/char';
+
 export class Random {
   /**
    * Generate a random number between min and max
@@ -19,5 +21,46 @@ export class Random {
 
     // Shift the random number to start from the minimum value
     return randomInRange + min;
+  }
+
+  boolean(): boolean {
+    return Boolean(this.number(0, 1))
+  }
+
+  arrayElement<T>(arr: T[]): T {
+    const randomIndex = this.number(0, arr.length - 1);
+    return arr[randomIndex];
+  }
+
+  objectElement<S, T extends string | symbol | number>(obj: Record<T, S>) {
+    return this.arrayElement(Object.keys(obj)) as T;
+  }
+
+  alphanumeric(_count: number): string {
+    let count: number = _count;
+    if (count <= 0) {
+      count = 1
+    }
+
+    let alphaChar = '';
+    for (var i = 0; i < count; i++) {
+      const randomChar = this.arrayElement(alphaNumericChars);
+      alphaChar += randomChar;
+    }
+    return alphaChar;
+  }
+
+  hexadecimal(_count: number): string {
+    let count: number = _count;
+    if (count <= 0) {
+      count = 1
+    }
+
+    let hexChar = '';
+    for (var i = 0; i < count; i++) {
+      const randomChar = this.arrayElement(hexaDecimalChars);
+      hexChar += randomChar;
+    }
+    return `0x${hexChar}`;
   }
 }
