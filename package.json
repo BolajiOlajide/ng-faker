@@ -12,13 +12,14 @@
   ],
   "license": "MIT",
   "scripts": {
-    "ci": "pnpm run build && pnpm run check-format && pnpm run check-exports",
+    "ci": "pnpm run build && pnpm run check-format && pnpm run check-exports && pnpm run lint && pnpm run test",
     "check-exports": "attw --pack .",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "build": "tsup",
     "test": "vitest",
-    "publish": "np"
+    "publish": "np",
+    "lint": "tsc"
   },
   "files": [
     "dist/ng-faker.mjs",

@@ -17,7 +17,6 @@ class NgFaker {
 
   constructor(opts: NgFakerOpts) {
     try {
-      ngFakerOptsSchema.safeParse(opts);
       ngFakerOptsSchema.parse(opts);
       if (!opts.locale) {
         opts.locale = Locale.ENGLISH;
