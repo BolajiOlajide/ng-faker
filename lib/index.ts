@@ -11,7 +11,7 @@ const definitions = {
 } as const;
 
 class NgFaker {
-  private lcoale: Locale;
+  private locale: Locale;
 
   public random: Random;
 
@@ -22,7 +22,7 @@ class NgFaker {
       if (!opts.locale) {
         opts.locale = Locale.ENGLISH;
       }
-      this.lcoale = opts.locale;
+      this.locale = opts.locale;
 
       this.random = new Random();
     } catch (err: unknown) {
@@ -37,7 +37,7 @@ class NgFaker {
   }
 
   setLocale(locale: Locale) {
-    this.lcoale = locale;
+    this.locale = locale;
   }
 }
 
