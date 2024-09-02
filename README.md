@@ -27,10 +27,10 @@ For now, we don't have support for the browser directly. We're working on that a
 ### Node.js
 
 ```js
-    var ngfaker = require('ng-faker');
+var ngfaker = require('ng-faker');
 
-    var randomName = ngfaker.name.firstName(); // Annabelle
-    var randomWord = ngfaker.lorem.phrase(); // Thanks so much.
+var randomName = ngfaker.name.firstName(); // Annabelle
+var randomWord = ngfaker.lorem.phrase(); // Thanks so much.
 ```
 
 ## API
@@ -42,7 +42,9 @@ ngfaker contains a super useful generator method ngfaker.fake for combining ngfa
 ### Example
 
 ```js
-console.log(ngfaker.fake("{{name.prefix}}, {{name.firstName}} {{name.lastName}}"));
+console.log(
+  ngfaker.fake('{{name.prefix}}, {{name.firstName}} {{name.lastName}}'),
+);
 // outputs: "Dr. Annabelle Smith"
 ```
 
@@ -50,33 +52,33 @@ This will interpolate the format string with the value of methods name.prefix(),
 
 ### API Methods
 
-* account
-  * bank
-  * accountNumber
-* address
-  * state
-  * states
-  * localGovernment
-  * localGovernments
-* lorem
-  * word
-  * phrase
-* name
-  * firstName
-  * lastName
-  * prefix
-  * fullName
-* phone
-  * phoneNumber
-  * serviceProvider
-* fake
-* random
-  * boolean
-  * number
-  * arrayElement
-  * objectElement
-  * alphanumeric
-  * hexadecimal
+- account
+  - bank
+  - accountNumber
+- address
+  - state
+  - states
+  - localGovernment
+  - localGovernments
+- lorem
+  - word
+  - phrase
+- name
+  - firstName
+  - lastName
+  - prefix
+  - fullName
+- phone
+  - phoneNumber
+  - serviceProvider
+- fake
+- random
+  - boolean
+  - number
+  - arrayElement
+  - objectElement
+  - alphanumeric
+  - hexadecimal
 
 ## Localization
 
@@ -87,20 +89,20 @@ Setting a new locale is simple:
 ```js
 var ngfaker = require('ng-faker');
 // sets locale to yo (Yoruba)
-ngfaker.setLocale("yo");
+ngfaker.setLocale('yo');
 // or
-ngfaker.locale = "yo";
+ngfaker.locale = 'yo';
 ```
 
-* yo - Yoruba
-* en - English
-* ha - hausa
-* ig - igbo
-* ek - Efik
-* bn - Benin
-* ur - urhobo
+- yo - Yoruba
+- en - English
+- ha - hausa
+- ig - igbo
+- ek - Efik
+- bn - Benin
+- ur - urhobo
 
- Other locales will be added soon...
+Other locales will be added soon...
 
 ## Custom Locale
 
@@ -109,12 +111,10 @@ Adding a new locale is equally easy:
 ```js
 ngFaker.addLocale('ef', {
   title: 'Efik',
-  name: [
-    "Efik1", "Efik2"
-  ],
+  name: ['Efik1', 'Efik2'],
   lorem: [],
-  address: []
-})
+  address: [],
+});
 ```
 
 ## Tests
@@ -129,22 +129,23 @@ If you require the absolute latest version of `ng-faker` the `master` branch on 
 
 ## Maintainers
 
-* Bolaji Olajide
-* Rotimi Babalola
-* Oyindamola Subair
+- Bolaji Olajide
+- Rotimi Babalola
+- Oyindamola Subair
 
 ## Contributors
 
-| [<img src="https://github.com/rotimi-babalola.png" width="100px;"><br><sub><b>Rotimi Babalola</b></sub>](https://github.com/rotimi-babalola)| [<img src="https://github.com/BolajiOlajide.png" width="100px;"><br><sub><b>Bolaji Olajide</b></sub>](https://github.com/BolajiOlajide) | [<img src="https://github.com/oyinda-subair.png" width="100px;"><br><sub><b>Subair Oyindamola</b></sub>](https://github.com/oyinda-subair)
-| :---: | :---: | :---: |
-| [<img src="https://github.com/olamilekan000.png" width="100px;"><br><sub><b>Olamilekan Odukoya</b></sub>](https://github.com/olamilekan000) | [<img src="https://github.com/Ayomiga.png" width="100px;"><br><sub><b>Ayomiga</b></sub>](https://github.com/Ayomiga) | [<img src="https://github.com/jcobhams.png" width="100px;"><br><sub><b>JCobhams</b></sub>](https://github.com/jcobhams)
-| :---: | :---: | :---: |
-| [<img src="https://github.com/seunzone.png" width="100px;"><br><sub><b>Seun Faluyi</b></sub>](https://github.com/seunzone) | [<img src="https://github.com/Neiva07.png" width="100px;"><br><sub><b>Neiva07</b></sub>](https://github.com/Neiva07) | [<img src="https://github.com/nero-adaware.png" width="100px;"><br><sub><b>nero-adaware</b></sub>](https://github.com/nero-adaware)
-| :---: | :---: | :---: |
+| [<img src="https://github.com/rotimi-babalola.png" width="100px;"><br><sub><b>Rotimi Babalola</b></sub>](https://github.com/rotimi-babalola) | [<img src="https://github.com/BolajiOlajide.png" width="100px;"><br><sub><b>Bolaji Olajide</b></sub>](https://github.com/BolajiOlajide) | [<img src="https://github.com/oyinda-subair.png" width="100px;"><br><sub><b>Subair Oyindamola</b></sub>](https://github.com/oyinda-subair) |
+| :------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
+| [<img src="https://github.com/olamilekan000.png" width="100px;"><br><sub><b>Olamilekan Odukoya</b></sub>](https://github.com/olamilekan000)  |          [<img src="https://github.com/Ayomiga.png" width="100px;"><br><sub><b>Ayomiga</b></sub>](https://github.com/Ayomiga)           |          [<img src="https://github.com/jcobhams.png" width="100px;"><br><sub><b>JCobhams</b></sub>](https://github.com/jcobhams)           |
+|                                                                    :---:                                                                     |                                                                  :---:                                                                  |                                                                   :---:                                                                    |
+|          [<img src="https://github.com/seunzone.png" width="100px;"><br><sub><b>Seun Faluyi</b></sub>](https://github.com/seunzone)          |          [<img src="https://github.com/Neiva07.png" width="100px;"><br><sub><b>Neiva07</b></sub>](https://github.com/Neiva07)           |    [<img src="https://github.com/nero-adaware.png" width="100px;"><br><sub><b>nero-adaware</b></sub>](https://github.com/nero-adaware)     |
+|                                                                    :---:                                                                     |                                                                  :---:                                                                  |                                                                   :---:                                                                    |
+
 | [<img src="https://github.com/sudo-kaizen.png" width="100px;"><br><sub><b>sudo-kaizen</b></sub>](https://github.com/sudo-kaizen)
 
 ng-faker was inspired by and has used data definitions and logic from:
 
-* [Marak Squires -Faker.js](https://github.com/Marak/faker.js)
-* [Copyright (c) 2007-2010 Benjamin Curtis](https://github.com/stympy/faker/)
-* [Copyright 2004-2005 by Jason Kohles](http://search.cpan.org/~jasonk/Data-Faker-0.07/)
+- [Marak Squires -Faker.js](https://github.com/Marak/faker.js)
+- [Copyright (c) 2007-2010 Benjamin Curtis](https://github.com/stympy/faker/)
+- [Copyright 2004-2005 by Jason Kohles](http://search.cpan.org/~jasonk/Data-Faker-0.07/)

@@ -1,6 +1,1 @@
-export const serviceProviders = [
-  'MTN',
-  'GLOBACOM',
-  'AIRTEL',
-  '9MOBILE'
-];
+export const serviceProviders = ['MTN', 'GLOBACOM', 'AIRTEL', '9MOBILE'];

@@ -12,7 +12,7 @@ describe('Random', () => {
   describe('number', () => {
     test('random number is never less than the min specified', () => {
       const num = rand.number(3);
-      expect(num).toBeGreaterThanOrEqual(3)
+      expect(num).toBeGreaterThanOrEqual(3);
     });
 
     test('random number is never greater than the max specified', () => {
@@ -28,6 +28,6 @@ describe('Random', () => {
   });
 
   describe('arrayElement', () => {
-    expect().toB
-  })
+    expect().toB;
+  });
 });

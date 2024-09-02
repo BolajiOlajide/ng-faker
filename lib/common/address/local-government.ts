@@ -15,7 +15,7 @@ export const abia = [
   'Ukwa West',
   'Umuahia North',
   'Umuahia South',
-  'Umu-Neochi'
+  'Umu-Neochi',
 ];
 
 export const adamawa = [
@@ -39,7 +39,7 @@ export const adamawa = [
   'Song',
   'Toungo',
   'Yola North',
-  'Yola South'
+  'Yola South',
 ];
 
 export const akwaIbom = [
@@ -73,7 +73,7 @@ export const akwaIbom = [
   'Ukanafun',
   'Uruan',
   'Urue - Offong / Oruko',
-  'Uyo'
+  'Uyo',
 ];
 
 export const anambra = [
@@ -97,7 +97,7 @@ export const anambra = [
   'Onitsha South',
   'Orumba North',
   'Orumba South',
-  'Oyi'
+  'Oyi',
 ];
 
 export const bauchi = [
@@ -120,7 +120,7 @@ export const bauchi = [
   'Tafawa - Balewa',
   'Toro',
   'Warji',
-  'Zaki'
+  'Zaki',
 ];
 
 export const bayelsa = [
@@ -131,7 +131,7 @@ export const bayelsa = [
   'Ogbia',
   'Sagbama',
   'Southern Ijaw',
-  'Yenegoa'
+  'Yenegoa',
 ];
 
 export const benue = [
@@ -157,7 +157,7 @@ export const benue = [
   'Tarka',
   'Ukum',
   'Ushongo',
-  'Vandeikya'
+  'Vandeikya',
 ];
 
 export const borno = [
@@ -187,7 +187,7 @@ export const borno = [
   'Monguno',
   'Ngala',
   'Nganzai',
-  'Shani'
+  'Shani',
 ];
 
 export const crossRiver = [
@@ -208,7 +208,7 @@ export const crossRiver = [
   'Etung',
   'Bekwara',
   'Bakassi',
-  'Calabar Municipality'
+  'Calabar Municipality',
 ];
 
 export const delta = [
@@ -236,7 +236,7 @@ export const delta = [
   'Warri South West',
   'Ukwani',
   'Oshimili North',
-  'Patani'
+  'Patani',
 ];
 
 export const ebonyi = [
@@ -252,7 +252,7 @@ export const ebonyi = [
   'Ohaukwu',
   'Ebonyi',
   'Ivo',
-  'Izzi'
+  'Izzi',
 ];
 
 export const edo = [
@@ -273,7 +273,7 @@ export const edo = [
   'Ovia South-West',
   'Owan East',
   'Owan West',
-  'Uhunmwonde'
+  'Uhunmwonde',
 ];
 
 export const ekiti = [
@@ -292,7 +292,7 @@ export const ekiti = [
   'Gbonyin',
   'Efon',
   'Ise/Orun',
-  'Ilejemeje'
+  'Ilejemeje',
 ];
 
 export const enugu = [
@@ -312,7 +312,7 @@ export const enugu = [
   'Aninri',
   'Nkanu East',
   'Udenu',
-  'Awgu'
+  'Awgu',
 ];
 
 export const fct = [
@@ -321,7 +321,7 @@ export const fct = [
   'Abaji',
   'Abuja Municipal',
   'Bwari',
-  'Kwali'
+  'Kwali',
 ];
 
 export const gombe = [
@@ -335,7 +335,7 @@ export const gombe = [
   'Funakaye',
   'Gombe',
   'Nafada/Bajoga',
-  'Yamaltu/Deba'
+  'Yamaltu/Deba',
 ];
 
 export const imo = [
@@ -365,7 +365,7 @@ export const imo = [
   'Oru West',
   'Owerri-Municipal',
   'Owerri North',
-  'Owerri West'
+  'Owerri West',
 ];
 
 export const jigawa = [
@@ -395,7 +395,7 @@ export const jigawa = [
   'Roni',
   'Sule - Tankarkar',
   'Taura',
-  'Yankwashi'
+  'Yankwashi',
 ];
 
 export const kaduna = [
@@ -421,7 +421,7 @@ export const kaduna = [
   'Sanga',
   'Soba',
   'Zango-Kataf',
-  'Zaria'
+  'Zaria',
 ];
 
 export const kano = [
@@ -468,7 +468,7 @@ export const kano = [
   'Tudun Wada',
   'Ungogo',
   'Warawa',
-  'Wudil'
+  'Wudil',
 ];
 
 export const katsina = [
@@ -505,7 +505,7 @@ export const katsina = [
   'Sabuwa',
   'Safana',
   'Sandamu',
-  'Zango'
+  'Zango',
 ];
 
 export const kebbi = [
@@ -529,7 +529,7 @@ export const kebbi = [
   'Suru',
   'Danko/Wasagu',
   'Yauri',
-  'Zuru'
+  'Zuru',
 ];
 
 export const kogi = [
@@ -553,7 +553,7 @@ export const kogi = [
   'Olamaboro',
   'Omala',
   'Yagba East',
-  'Yagba West'
+  'Yagba West',
 ];
 
 export const kwara = [
@@ -572,7 +572,7 @@ export const kwara = [
   'Offa',
   'Oke Ero',
   'Oyun',
-  'Pategi'
+  'Pategi',
 ];
 
 export const lagos = [
@@ -595,7 +595,7 @@ export const lagos = [
   'Ojo',
   'Oshodi - Isolo',
   'Shomolu',
-  'Surulere'
+  'Surulere',
 ];
 
 export const nassarawa = [
@@ -611,7 +611,7 @@ export const nassarawa = [
   'Nasarawa-Eggon',
   'Obi',
   'Toto',
-  'Wamba'
+  'Wamba',
 ];
 
 export const niger = [
@@ -639,7 +639,7 @@ export const niger = [
   'Shiroro',
   'Suleja',
   'Tafa',
-  'Wushishi'
+  'Wushishi',
 ];
 
 export const ogun = [
@@ -662,7 +662,7 @@ export const ogun = [
   'Remo North',
   'Sagamu',
   'Yewa North',
-  'Yewa South'
+  'Yewa South',
 ];
 
 export const ondo = [
@@ -683,7 +683,7 @@ export const ondo = [
   'Ondo East',
   'Ondo West',
   'Ose',
-  'Owo'
+  'Owo',
 ];
 
 export const osun = [
@@ -716,7 +716,7 @@ export const osun = [
   'Olorunda',
   'Oriade',
   'Orolu',
-  'Osogbo'
+  'Osogbo',
 ];
 
 export const oyo = [
@@ -752,7 +752,7 @@ export const oyo = [
   'Oyo West',
   'Saki East',
   'Saki West',
-  'Surulere'
+  'Surulere',
 ];
 
 export const plateau = [
@@ -772,7 +772,7 @@ export const plateau = [
   `Qua'an Pan`,
   'Riyom',
   'Shendam',
-  'Wase'
+  'Wase',
 ];
 
 export const rivers = [
@@ -798,7 +798,7 @@ export const rivers = [
   'Opobo-Nkoro',
   'Oyigbo',
   'Port - Harcourt',
-  'Tai'
+  'Tai',
 ];
 
 export const sokoto = [
@@ -824,7 +824,7 @@ export const sokoto = [
   'Tureta',
   'Wamako',
   'Wurno',
-  'Yabo'
+  'Yabo',
 ];
 
 export const taraba = [
@@ -843,7 +843,7 @@ export const taraba = [
   'Ussa',
   'Wukari',
   'Yorro',
-  'Zing'
+  'Zing',
 ];
 
 export const yobe = [
@@ -863,7 +863,7 @@ export const yobe = [
   'Potiskum',
   'Tarmuwa',
   'Yunusari',
-  'Yusufari'
+  'Yusufari',
 ];
 
 export const zamfara = [
@@ -880,5 +880,5 @@ export const zamfara = [
   'Maru',
   'Shinkafi',
   'Talata Mafara',
-  'Zurmi'
+  'Zurmi',
 ];

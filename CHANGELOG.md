@@ -7,25 +7,30 @@ https://github.com/BolajiOlajide/ng-faker
 
 ### API
 
-* Address
-  * added states and local government generator.
+- Address
 
-* Lorem
-  * added phrase and word generator for English, Yoruba and Igbo locales.
+  - added states and local government generator.
 
-* Name
-  * added first name, last name, full name and prefixes generator. All locales are supported i.e. English, Yoruba, Hausa and Igbo.
+- Lorem
 
-* Phone
-  * added phone number and serviceProvider generator
+  - added phrase and word generator for English, Yoruba and Igbo locales.
 
-* Account
-  * added bank and account number generator
+- Name
 
-* added `fake` and `random` classes
+  - added first name, last name, full name and prefixes generator. All locales are supported i.e. English, Yoruba, Hausa and Igbo.
+
+- Phone
+
+  - added phone number and serviceProvider generator
+
+- Account
+
+  - added bank and account number generator
+
+- added `fake` and `random` classes
 
 ## v1.1.0 - 2019-01-09
 
-* create the Benin locale
+- create the Benin locale
 
-* create the Urhobo localed
+- create the Urhobo localed

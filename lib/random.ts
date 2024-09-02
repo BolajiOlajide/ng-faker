@@ -10,7 +10,7 @@ export class Random {
    */
   number(min: number = 0, max: number = 9): number {
     if (min > max) {
-      [min, max] = [max, min]
+      [min, max] = [max, min];
     }
 
     // Calculate the range
@@ -24,7 +24,7 @@ export class Random {
   }
 
   boolean(): boolean {
-    return Boolean(this.number(0, 1))
+    return Boolean(this.number(0, 1));
   }
 
   arrayElement<T>(arr: T[]): T {
@@ -39,7 +39,7 @@ export class Random {
   alphanumeric(_count: number): string {
     let count: number = _count;
     if (count <= 0) {
-      count = 1
+      count = 1;
     }
 
     let alphaChar = '';
@@ -53,7 +53,7 @@ export class Random {
   hexadecimal(_count: number): string {
     let count: number = _count;
     if (count <= 0) {
-      count = 1
+      count = 1;
     }
 
     let hexChar = '';

@@ -23,5 +23,5 @@ export const banks = [
   'UNITED BANK FOR AFRICA PLC',
   'UNITY BANK PLC',
   'WEMA BANK PLC',
-  'ZENITH BANK PLC'
+  'ZENITH BANK PLC',
 ];

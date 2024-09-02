@@ -1,13 +1,13 @@
-import { ZodError } from 'zod'
+import { ZodError } from 'zod';
 
 import { Locale } from './types';
 import { ngFakerOptsSchema, type NgFakerOpts } from './schema';
 import { Random } from './random';
 
 const definitions = {
-  'name': ['male_first_name', 'last_name', 'female_first_name', 'prefix'],
-  'address': ['state', 'local_government'],
-  'internet': ['domain_suffix', 'example_email', 'email_suffix', 'free_email']
+  name: ['male_first_name', 'last_name', 'female_first_name', 'prefix'],
+  address: ['state', 'local_government'],
+  internet: ['domain_suffix', 'example_email', 'email_suffix', 'free_email'],
 } as const;
 
 class NgFaker {
@@ -29,10 +29,10 @@ class NgFaker {
       if (err instanceof ZodError) {
         // We want to display Zod errors one at a time, so we stick
         // to a similar format for returning errors.
-        const [firstError] = err.errors
-        throw new Error(firstError.message)
+        const [firstError] = err.errors;
+        throw new Error(firstError.message);
       }
-      throw err
+      throw err;
     }
   }
 
@@ -42,7 +42,7 @@ class NgFaker {
 }
 
 const ngf = new NgFaker({ locale: Locale.ENGLISH });
-ngf.random.number(1, 10)
+ngf.random.number(1, 10);
 
 // const LocaleData: Record<Locale, unknown> = {
 //   [Locale.ENGLISH]: null,

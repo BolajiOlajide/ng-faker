@@ -5,7 +5,7 @@ export const northCentral = [
   'Nasarawa',
   'Niger',
   'Plateau',
-  'Federal Capital Territory'
+  'Federal Capital Territory',
 ];
 
 export const northEast = [
@@ -14,7 +14,7 @@ export const northEast = [
   'Borno',
   'Gombe',
   'Taraba',
-  'Yobe'
+  'Yobe',
 ];
 
 export const northWest = [
@@ -24,16 +24,10 @@ export const northWest = [
   'Katsina',
   'Kebbi',
   'Sokoto',
-  'Zamfara'
+  'Zamfara',
 ];
 
-export const southEast = [
-  'Abia',
-  'Anambra',
-  'Ebonyi',
-  'Enugu',
-  'Imo'
-];
+export const southEast = ['Abia', 'Anambra', 'Ebonyi', 'Enugu', 'Imo'];
 
 export const southSouth = [
   'Akwa Ibom',
@@ -41,14 +35,7 @@ export const southSouth = [
   'Bayelsa',
   'Rivers',
   'Delta',
-  'Edo'
+  'Edo',
 ];
 
-export const southWest = [
-  'Ekiti',
-  'Lagos',
-  'Ogun',
-  'Ondo',
-  'Osun',
-  'Oyo'
-];
+export const southWest = ['Ekiti', 'Lagos', 'Ogun', 'Ondo', 'Osun', 'Oyo'];

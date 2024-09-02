@@ -14,7 +14,7 @@ section for [ng-faker][issues]. When submitting an issue please take the followi
 3. **Include a live example.** After narrowing your code down to only the problem areas, make use of [repl.it][repl] or a link to your live site so that we can view a live example of the problem.
 
 4. **Share as much information as possible.** Include browser version affected, your OS, version of
-the library, steps to reproduce, etc. "X isn't working!!!1!" will probably just be closed.
+   the library, steps to reproduce, etc. "X isn't working!!!1!" will probably just be closed.
 
 ## Contributing Changes
 
@@ -27,7 +27,6 @@ To setup for making changes you will need to take a few steps, we've outlined th
 2. Fork the [ng-faker][ng-faker] repository, if you are unsure how to do this GitHub has a guides for the [command line][fork-cli] and for the [GitHub Client][fork-gui].
 
 3. Next, run `npm install` from within the clone of your fork. That will install all dependencies necessary to build ng-faker.
-
 
 ### Making a Change
 
@@ -66,7 +65,7 @@ Keep this in mind, when modifying and/or extending the sources.
 
 # Important
 
-* Please make sure that you run both `gulp` and tests before making a PR.
+- Please make sure that you run both `gulp` and tests before making a PR.
 
 ## Contributor Code of Conduct
 
