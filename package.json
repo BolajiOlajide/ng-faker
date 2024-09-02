@@ -19,7 +19,8 @@
     "build": "tsup",
     "test": "vitest",
     "publish": "np",
-    "lint": "tsc"
+    "lint": "tsc",
+    "local-release": "changeset version && changeset publish"
   },
   "files": [
     "dist/ng-faker.mjs",
@@ -29,8 +30,9 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "prettier": "^3.3.3",
     "@arethetypeswrong/cli": "^0.15.4",
+    "@changesets/cli": "^2.27.7",
+    "prettier": "^3.3.3",
     "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
     "tslib": "^2.6.3",

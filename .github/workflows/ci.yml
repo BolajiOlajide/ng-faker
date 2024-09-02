@@ -1,3 +1,5 @@
+# Using this article by Matt Pocock to migrate ng-faker to Typescript.
+# https://www.totaltypescript.com/how-to-create-an-npm-package
 name: NG-Faker CI
 
 on:
@@ -6,6 +8,8 @@ on:
     branches:
       - main
 
+# concurrency prevents multiple instances of the workflow from running at the same time,
+# using cancel-in-progress to cancel any existing runs.
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
