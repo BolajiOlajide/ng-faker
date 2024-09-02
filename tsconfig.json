@@ -16,16 +16,10 @@
     "noImplicitOverride": true,
 
     /* If transpiling with TypeScript: */
-    "module": "NodeNext",
-    "outDir": "dist",
-    "rootDir": "src",
-    "sourceMap": true,
+    "module": "Preserve",
 
-    /* AND if you're building for a library: */
-    "declaration": true,
-
-    /* AND if you're building for a library in a monorepo: */
-    "declarationMap": true
+    // ensure ts is used as a linter
+    "noEmit": true
   },
   "include": ["lib/**/*"],
   "exclude": ["node_modules", "dist", "__tests__", "src/examples/**/*"]

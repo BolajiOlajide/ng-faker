@@ -27,7 +27,7 @@ export class Random {
     return Boolean(this.number(0, 1));
   }
 
-  arrayElement<T>(arr: T[]): T {
+  arrayElement<T>(arr: T[]): T | undefined {
     const randomIndex = this.number(0, arr.length - 1);
     return arr[randomIndex];
   }

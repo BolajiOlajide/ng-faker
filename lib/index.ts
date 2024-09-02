@@ -30,7 +30,7 @@ class NgFaker {
         // We want to display Zod errors one at a time, so we stick
         // to a similar format for returning errors.
         const [firstError] = err.errors;
-        throw new Error(firstError.message);
+        throw new Error(firstError?.message);
       }
       throw err;
     }
