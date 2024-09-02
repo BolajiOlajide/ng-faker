@@ -40,9 +40,6 @@ class NgFaker {
   }
 }
 
-const ngf = new NgFaker({ locale: Locale.ENGLISH });
-ngf.random.number(1, 10);
-
 // const LocaleData: Record<Locale, unknown> = {
 //   [Locale.ENGLISH]: null,
 //   [Locale.YORUBA]: null,
