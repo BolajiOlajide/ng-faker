@@ -5,6 +5,7 @@ export enum Locale {
   HAUSA,
   EFIK,
   BENIN,
+  URHOBO,
 }
 
 export enum Gender {
