@@ -18,10 +18,7 @@ class NgFaker {
   constructor(opts: NgFakerOpts) {
     try {
       ngFakerOptsSchema.parse(opts);
-      if (!opts.locale) {
-        opts.locale = Locale.ENGLISH;
-      }
-      this.locale = opts.locale;
+      this.locale = opts.locale ?? Locale.ENGLISH;
 
       this.random = new Random();
       this.account = new Account(this.random);
