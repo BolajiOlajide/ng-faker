@@ -25,4 +25,4 @@ export class Phone {
     }
     return phoneNumber;
   }
-};
+}

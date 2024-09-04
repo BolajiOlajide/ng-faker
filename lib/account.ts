@@ -1,5 +1,5 @@
-import { banks } from './common/banks'
-import { Random } from './random'
+import { banks } from './common/banks';
+import { Random } from './random';
 
 export class Account {
   private random: Random;

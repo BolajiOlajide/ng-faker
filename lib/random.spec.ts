@@ -45,11 +45,11 @@ describe('Random', () => {
     const itemsObj = {
       firstName: 'Jane',
       lastName: 'Doe',
-      age: 292
+      age: 292,
     };
 
     test('returns undefined when an empty object is passed', () => {
-      const it = rand.objectElement({})
+      const it = rand.objectElement({});
       expect(it).toBeUndefined();
     });
 

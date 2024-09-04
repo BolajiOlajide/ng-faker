@@ -32,7 +32,9 @@ export class Random {
     return arr[randomIndex];
   }
 
-  objectElement<S, T extends string | symbol | number>(obj: Record<T, S>): T | undefined {
+  objectElement<S, T extends string | symbol | number>(
+    obj: Record<T, S>,
+  ): T | undefined {
     return this.arrayElement(Object.keys(obj)) as T;
   }
 
