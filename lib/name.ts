@@ -45,16 +45,41 @@ export class Name {
     return this.random.boolean() ? Gender.FEMALE : Gender.MALE;
   }
 
+  /**
+   * returns a single random first name based on the locale set
+   *
+   * @method firstName
+   * @param {Enum} gender: Gender
+   */
   firstName(gender?: Gender): string {
     const chosenGender = gender ?? this.selectRandomGender();
     return this.localizer.firstName(chosenGender);
   }
 
+  /**
+   * returns a single random last name based on the locale set
+   *
+   * @method lastName
+   */
   lastName(): string {
     return this.localizer.lastName();
   }
 
+  /**
+   * returns a name prefix depending on the locale set
+   *
+   * @method prefix
+   */
   prefix(): string {
     return this.localizer.prefix();
+  }
+
+   /**
+   * returns a random full name
+   *
+   * @method fullName
+   */
+  fullName(): string {
+    return `${this.prefix()} ${this.firstName()} ${this.lastName()}`;
   }
 }
