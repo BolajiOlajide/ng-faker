@@ -7,12 +7,6 @@ import { Account } from './account';
 import { Phone } from './phone';
 import { Name } from './name';
 
-const definitions = {
-  name: ['male_first_name', 'last_name', 'female_first_name', 'prefix'],
-  address: ['state', 'local_government'],
-  internet: ['domain_suffix', 'example_email', 'email_suffix', 'free_email'],
-} as const;
-
 class NgFaker {
   private locale: Locale;
 
@@ -48,12 +42,5 @@ class NgFaker {
     this.locale = locale;
   }
 }
-
-// const LocaleData: Record<Locale, unknown> = {
-//   [Locale.ENGLISH]: null,
-//   [Locale.YORUBA]: null,
-//   [Locale.HAUSA]: null,
-//   [Locale.IGBO]: null,
-// } as const;
 
 export { NgFaker, Locale };
