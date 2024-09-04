@@ -21,7 +21,7 @@ export const maleFirstNames = [
   'Kelechi',
   'Maduka',
   'Munachimso',
-  'Okafor'
+  'Okafor',
 ];
 
 export const femaleFirstNames = [
@@ -53,16 +53,9 @@ export const femaleFirstNames = [
   'Amarachi',
   'Oluchi',
   'Chinyere',
-  'Chinasa'
+  'Chinasa',
 ];
 
-export const lastNames = [
-  'Achebe',
-  'Amadi',
-  'Nwosu'
-];
+export const lastNames = ['Achebe', 'Amadi', 'Nwosu'];
 
-export const prefix = [
-  'Igwe',
-  'Mazi'
-];
+export const prefix = ['Igwe', 'Mazi'];

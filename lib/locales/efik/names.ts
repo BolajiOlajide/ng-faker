@@ -52,7 +52,7 @@ export const maleFirstNames = [
   'Efanga',
   'Aniyom',
   'Esang',
-  'Amata'
+  'Amata',
 ];
 
 export const femaleFirstNames = [
@@ -87,7 +87,7 @@ export const femaleFirstNames = [
   'Idem',
   'Edung',
   'Umo',
-  'Ekanem'
+  'Ekanem',
 ];
 
 export const lastNames = [
@@ -102,12 +102,7 @@ export const lastNames = [
   'Akpan',
   'Edet',
   'Umoh',
-  'Enang'
+  'Enang',
 ];
 
-export const prefix = [
-  'Amasi',
-  'Etubom',
-  'Obong',
-  'Muri'
-];
+export const prefix = ['Amasi', 'Etubom', 'Obong', 'Muri'];

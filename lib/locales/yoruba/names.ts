@@ -41,7 +41,7 @@ export const maleFirstNames = [
   'Oluwadamisi',
   'Oluwadamilare',
   'Ayomikun',
-  'Babatunde'
+  'Babatunde',
 ];
 
 export const femaleFirstNames = [
@@ -121,7 +121,7 @@ export const femaleFirstNames = [
   'Omolola',
   'Adetutu',
   'Gbemisola',
-  'Busola'
+  'Busola',
 ];
 
 export const lastNames = [
@@ -166,7 +166,7 @@ export const lastNames = [
   'Adebowale',
   'Afolabi',
   'Falasinu',
-  'Aderibigbe'
+  'Aderibigbe',
 ];
 
 export const prefix = [
@@ -176,5 +176,5 @@ export const prefix = [
   'Alagba',
   'Dokita',
   'Olori',
-  'Alhaji'
+  'Alhaji',
 ];

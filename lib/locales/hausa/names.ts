@@ -26,18 +26,18 @@ export const maleFirstNames = [
   'Gambo',
   'Bashir',
   'Adamu',
-  'Ali'
+  'Ali',
 ];
 
 export const femaleFirstNames = [
   'Aisha',
   'Aminah',
-  'Asma\'u',
+  "Asma'u",
   'Zainab',
   'Atikah',
-  'Fa\'idah',
-  'Fa\'iqah',
-  'Fa\'izah',
+  "Fa'idah",
+  "Fa'iqah",
+  "Fa'izah",
   'Habibah',
   'Halimah',
   'Hamidah',
@@ -50,8 +50,8 @@ export const femaleFirstNames = [
   'Maimuna',
   'Nabilah',
   'Nafisah',
-  'Na\'imah',
-  'Rab\'iah',
+  "Na'imah",
+  "Rab'iah",
   'Safiyah',
   'Sakinah',
   'Salimah',
@@ -64,18 +64,9 @@ export const femaleFirstNames = [
   'Fatima',
   'Laraba',
   'Hussaina',
-  'Hassana'
+  'Hassana',
 ];
 
-export const lastNames = [
-  'Adamu',
-  'Mohammed',
-  'Bello',
-  'Ali',
-  'Aliyu'
-];
+export const lastNames = ['Adamu', 'Mohammed', 'Bello', 'Ali', 'Aliyu'];
 
-export const prefix = [
-  'Alhaji',
-  'Aboki'
-];
+export const prefix = ['Alhaji', 'Aboki'];

@@ -25,32 +25,32 @@ export const maleFirstNames = [
   'Odogbo',
   'Efosa',
   'Osayuki',
-  'Nosa'
+  'Nosa',
 ];
 
 export const femaleFirstNames = [
-'Obiémwen',
-'Obósuria',
-'Obuhun-Emwinhiaye',
-'Oghohon',
-'Ogikebe',
-'Ogiemwénva',
-'Ohuimumwén',
-'Ohunwu',
-'Okhuómóla',
-'Okunmaria',
-'Okunmariawa',
-'Okunsogie',
-'Okunsuyi',
-'Okunwaye',
-'Okunzónamé',
-'Oléde',
-'Osamuéde',
-'Isi',
-'Osaréntin',
-'Osarétinmwén',
-'Osarugue',
-'Ehis'
+  'Obiémwen',
+  'Obósuria',
+  'Obuhun-Emwinhiaye',
+  'Oghohon',
+  'Ogikebe',
+  'Ogiemwénva',
+  'Ohuimumwén',
+  'Ohunwu',
+  'Okhuómóla',
+  'Okunmaria',
+  'Okunmariawa',
+  'Okunsogie',
+  'Okunsuyi',
+  'Okunwaye',
+  'Okunzónamé',
+  'Oléde',
+  'Osamuéde',
+  'Isi',
+  'Osaréntin',
+  'Osarétinmwén',
+  'Osarugue',
+  'Ehis',
 ];
 
 export const lastNames = [
@@ -61,12 +61,7 @@ export const lastNames = [
   'Osaze',
   'Oseye',
   'Enomwoyi',
-  'Edenausegboye'
+  'Edenausegboye',
 ];
 
-export const prefix = [
-  'Oba',
-  'Etubom',
-  'Obong',
-  'Muri'
-];
+export const prefix = ['Oba', 'Etubom', 'Obong', 'Muri'];

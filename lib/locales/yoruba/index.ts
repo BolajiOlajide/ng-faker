@@ -1,7 +1,7 @@
-import type { Localizer } from "..";
-import type { Random } from "../../random";
-import { Gender } from "../../types";
-import { maleFirstNames, femaleFirstNames, lastNames, prefix } from "./names";
+import type { Localizer } from '..';
+import type { Random } from '../../random';
+import { Gender } from '../../types';
+import { maleFirstNames, femaleFirstNames, lastNames, prefix } from './names';
 
 class YorubaLocale implements Localizer {
   private random: Random;
@@ -11,7 +11,9 @@ class YorubaLocale implements Localizer {
   }
 
   public firstName(gender: Gender): string {
-    return this.random.arrayElement(gender === Gender.MALE ? maleFirstNames : femaleFirstNames) as string;
+    return this.random.arrayElement(
+      gender === Gender.MALE ? maleFirstNames : femaleFirstNames,
+    ) as string;
   }
 
   public lastName(): string {

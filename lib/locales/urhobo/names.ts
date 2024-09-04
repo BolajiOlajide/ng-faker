@@ -48,7 +48,7 @@ export const maleFirstNames = [
   'Uvo',
   'Ogoro',
   'Uloho',
-  'Okpara'
+  'Okpara',
 ];
 
 export const femaleFirstNames = [
@@ -82,7 +82,7 @@ export const femaleFirstNames = [
   'Efediome',
   'Efevwerha',
   'Oghonoro',
-  'Oboganriemu'
+  'Oboganriemu',
 ];
 
 export const lastNames = [
@@ -101,7 +101,7 @@ export const lastNames = [
   'Odafe',
   'Orogun',
   'Sapele',
-  'Ododo'
+  'Ododo',
 ];
 
 export const prefix = [
@@ -111,5 +111,5 @@ export const prefix = [
   'Oba',
   'Okpako ',
   'Ovie ',
-  'Omote '
+  'Omote ',
 ];

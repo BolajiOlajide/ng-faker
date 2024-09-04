@@ -1,5 +1,5 @@
-import type { Random } from "./random";
-import { Gender, type Locale } from "./types";
+import type { Random } from './random';
+import { Gender, type Locale } from './types';
 
 export class Name {
   private locale: Locale;
@@ -23,4 +23,4 @@ export class Name {
     // }
     // return ngFaker.random.arrayElement(ngFaker.definitions.name.female_first_name);
   }
-};
+}
