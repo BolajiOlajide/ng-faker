@@ -5,6 +5,7 @@ import { ngFakerOptsSchema, type NgFakerOpts } from './schema';
 import { Random } from './random';
 import { Account } from './account';
 import { Phone } from './phone';
+import { Name } from './name';
 
 const definitions = {
   name: ['male_first_name', 'last_name', 'female_first_name', 'prefix'],
@@ -18,6 +19,8 @@ class NgFaker {
   public random: Random;
   public account: Account;
   public phone: Phone;
+  public name: Name;
+
   constructor(opts: NgFakerOpts) {
     try {
       ngFakerOptsSchema.parse(opts);
@@ -29,6 +32,7 @@ class NgFaker {
       this.random = new Random();
       this.account = new Account(this.random);
       this.phone = new Phone(this.random);
+      this.name = new Name(this.locale, this.random);
     } catch (err: unknown) {
       if (err instanceof ZodError) {
         // We want to display Zod errors one at a time, so we stick

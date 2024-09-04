@@ -74,7 +74,7 @@ export class Name {
     return this.localizer.prefix();
   }
 
-   /**
+  /**
    * returns a random full name
    *
    * @method fullName
