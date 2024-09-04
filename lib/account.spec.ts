@@ -2,12 +2,14 @@ import { describe, test, expect, beforeAll } from 'vitest';
 
 import { Account } from './account';
 import { banks } from './common/banks';
+import { Random } from './random';
 
 describe('Account', () => {
   let account: Account;
 
   beforeAll(() => {
-    account = new Account();
+    const random = new Random();
+    account = new Account(random);
   });
 
   describe('banks', () => {

@@ -4,8 +4,8 @@ import { Random } from './random'
 export class Account {
   private random: Random;
 
-  constructor() {
-    this.random = new Random();
+  constructor(random: Random) {
+    this.random = random;
   }
 
   banks(): string | undefined {
