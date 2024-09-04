@@ -1,0 +1,81 @@
+export const maleFirstNames = [
+  'Balarabe',
+  'Danjuma',
+  'Danladi',
+  'Danlami',
+  'Gaddo',
+  'Gambo',
+  'Gowon',
+  'Rashidi',
+  'Tanimu',
+  'Hassan',
+  'Mohammed',
+  'Aminu',
+  'Usman',
+  'Aliyu',
+  'Bello',
+  'Waziri',
+  'Bala',
+  'Dantata',
+  'Dangote',
+  'Hamza',
+  'Jibril',
+  'Yusuf',
+  'Mustafa',
+  'Hussain',
+  'Gambo',
+  'Bashir',
+  'Adamu',
+  'Ali'
+];
+
+export const femaleFirstNames = [
+  'Aisha',
+  'Aminah',
+  'Asma\'u',
+  'Zainab',
+  'Atikah',
+  'Fa\'idah',
+  'Fa\'iqah',
+  'Fa\'izah',
+  'Habibah',
+  'Halimah',
+  'Hamidah',
+  'Iman',
+  'Jamilah',
+  'Kubra',
+  'Latifah',
+  'Lubabah',
+  'Mansurah',
+  'Maimuna',
+  'Nabilah',
+  'Nafisah',
+  'Na\'imah',
+  'Rab\'iah',
+  'Safiyah',
+  'Sakinah',
+  'Salimah',
+  'Samirah',
+  'Shukriyah',
+  'Sumayyah',
+  'Zahrah',
+  'Zakiyyah',
+  'Zubadayah',
+  'Fatima',
+  'Laraba',
+  'Hussaina',
+  'Hassana'
+];
+
+export const lastNames = [
+  'Adamu',
+  'Mohammed',
+  'Bello',
+  'Ali',
+  'Aliyu'
+];
+
+export const prefix = [
+  'Alhaji',
+  'Aboki'
+];

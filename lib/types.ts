@@ -6,3 +6,8 @@ export enum Locale {
   EFIK,
   BENIN,
 }
+
+export enum Gender {
+  MALE,
+  FEMALE,
+}
