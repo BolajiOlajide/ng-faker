@@ -5,7 +5,7 @@ https://github.com/BolajiOlajide/ng-faker
 
 ## v2.0.0 - 2024-09-05
 
-- Rewrite the library in TypeScript
+- Rewrite the library in TypeScript.
 
 - Remove the `internet` & `address` sub class, it was being used for fraudulent purposes.
 
