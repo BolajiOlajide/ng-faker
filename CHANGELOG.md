@@ -7,7 +7,9 @@ https://github.com/BolajiOlajide/ng-faker
 
 - Rewrite the library in TypeScript
 
-- Remove the internet sub class as it was being used for fraudulent purposes.
+- Remove the `internet` sub class, it was being used for fraudulent purposes.
+
+- Remove the `fake` sub class as it was a bit tedious to maintain and didn't have much value.
 
 ## v1.x.x - 2017-03-10
 
