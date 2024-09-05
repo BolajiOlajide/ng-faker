@@ -1,4 +1,4 @@
-import type { Localizer } from "./locales";
+import type { Localizer } from './locales';
 import { BeninLocale } from './locales/benin';
 import { EfikLocale } from './locales/efik';
 import { EnglishLocale } from './locales/english';
@@ -6,8 +6,8 @@ import { HausaLocale } from './locales/hausa';
 import { IgboLocale } from './locales/igbo';
 import { UrhoboLocale } from './locales/urhobo';
 import { YorubaLocale } from './locales/yoruba';
-import type { Random } from "./random";
-import { Locale } from "./types";
+import type { Random } from './random';
+import { Locale } from './types';
 
 export class Lorem {
   private locale: Locale;

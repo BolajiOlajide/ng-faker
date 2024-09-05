@@ -43,23 +43,23 @@ export const words = [
   'Ikot',
   'Edesi',
   'Edi',
-  'Owo'
+  'Owo',
 ];
 
 export const phrases = [
-  "Mọń ẹmẹ",              // Good morning
-  "Abadie?",               // How are you?
-  "Enye ete?",             // What’s happening?
-  "Sọsoñọ fi",             // Thank you
-  "K'idem fo?",            // How is your body? (How are you?)
-  "Nkpọ ke do?",           // What's going on?
-  "Dara óñọñ",             // Good night
-  "Esiere",                // Goodbye
-  "Kedụ idibọñ?",          // What is your name?
-  "Akwaña nẹ fi",          // I love you
-  "Mi ẹdọk fi",            // I miss you
-  "Nsido?",                // Where are you going?
-  "Mọ eyen ẹnọ fi",        // I’m happy for you
-  "Dọk me nte akpa",       // Stay safe
-  "Yak enye",              // Leave it/Forget about it
+  'Mọń ẹmẹ', // Good morning
+  'Abadie?', // How are you?
+  'Enye ete?', // What’s happening?
+  'Sọsoñọ fi', // Thank you
+  "K'idem fo?", // How is your body? (How are you?)
+  'Nkpọ ke do?', // What's going on?
+  'Dara óñọñ', // Good night
+  'Esiere', // Goodbye
+  'Kedụ idibọñ?', // What is your name?
+  'Akwaña nẹ fi', // I love you
+  'Mi ẹdọk fi', // I miss you
+  'Nsido?', // Where are you going?
+  'Mọ eyen ẹnọ fi', // I’m happy for you
+  'Dọk me nte akpa', // Stay safe
+  'Yak enye', // Leave it/Forget about it
 ];

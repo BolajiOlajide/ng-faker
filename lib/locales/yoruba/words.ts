@@ -6,7 +6,7 @@ export const words = [
   'idunnu',
   'abo',
   'ise',
-  'pataki'
+  'pataki',
 ];
 
 export const phrases = [
@@ -65,5 +65,5 @@ export const phrases = [
   'Ọkọ afategun-sare mi kun fun ẹja arọ',
   'O ṣeun',
   'Ko to ọpẹ',
-  `Ki lo'n ṣẹlẹ?`
+  `Ki lo'n ṣẹlẹ?`,
 ];
