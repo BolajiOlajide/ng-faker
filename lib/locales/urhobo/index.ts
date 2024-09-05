@@ -2,6 +2,7 @@ import type { Localizer } from '..';
 import type { Random } from '../../random';
 import { Gender } from '../../types';
 import { maleFirstNames, femaleFirstNames, lastNames, prefix } from './names';
+import { phrases, words } from './words';
 
 class UrhoboLocale implements Localizer {
   private random: Random;
@@ -22,6 +23,14 @@ class UrhoboLocale implements Localizer {
 
   public prefix(): string {
     return this.random.arrayElement(prefix) as string;
+  }
+
+  public word(): string {
+    return this.random.arrayElement(words) as string;
+  }
+
+  public phrase(): string {
+    return this.random.arrayElement(phrases) as string;
   }
 }
 
