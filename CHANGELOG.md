@@ -3,6 +3,12 @@
 See commit history on Github for change history
 https://github.com/BolajiOlajide/ng-faker
 
+## v2.0.0 - 2024-09-05
+
+- Rewrite the library in TypeScript
+
+- Remove the internet sub class as it was being used for fraudulent purposes.
+
 ## v1.x.x - 2017-03-10
 
 ### API
