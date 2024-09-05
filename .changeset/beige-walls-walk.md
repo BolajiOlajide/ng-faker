@@ -1,5 +1,0 @@
----
-'ng-faker': major
----
-
-omwrhin
