@@ -1,6 +1,6 @@
 {
   "name": "ng-faker",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "generate massive amounts of fake nigerian data",
   "repository": "git@github.com:BolajiOlajide/ng-faker.git",
   "main": "dist/index.js",
